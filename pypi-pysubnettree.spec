@@ -4,7 +4,7 @@
 #
 Name     : pypi-pysubnettree
 Version  : 0.35
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
 Summary  : The PySubnetTree package provides a Python data structure SubnetTree
@@ -84,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656381820
+export SOURCE_DATE_EPOCH=1656400415
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
