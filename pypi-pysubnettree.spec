@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-pysubnettree
-Version  : 0.35
-Release  : 34
-URL      : https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
-Source0  : https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
+Version  : 0.37
+Release  : 35
+URL      : https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
+Source0  : https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
 Summary  : The PySubnetTree package provides a Python data structure SubnetTree
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -15,7 +15,6 @@ Requires: pypi-pysubnettree-license = %{version}-%{release}
 Requires: pypi-pysubnettree-python = %{version}-%{release}
 Requires: pypi-pysubnettree-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : python3-dev
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -23,7 +22,7 @@ BuildRequires : python3-dev
 %description
 ..
 .. Version number is filled in automatically.
-.. |version| replace:: 0.35
+.. |version| replace:: 0.37
 ===============================================
 PySubnetTree - A Python Module for CIDR Lookups
 ===============================================
@@ -56,10 +55,10 @@ python3 components for the pypi-pysubnettree package.
 
 
 %prep
-%setup -q -n pysubnettree-0.35
-cd %{_builddir}/pysubnettree-0.35
+%setup -q -n pysubnettree-0.37
+cd %{_builddir}/pysubnettree-0.37
 pushd ..
-cp -a pysubnettree-0.35 buildavx2
+cp -a pysubnettree-0.37 buildavx2
 popd
 
 %build
@@ -67,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685549412
+export SOURCE_DATE_EPOCH=1691176546
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

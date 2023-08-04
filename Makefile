@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pysubnettree
-URL = https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
+URL = https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
