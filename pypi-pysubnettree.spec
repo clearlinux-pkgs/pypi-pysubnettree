@@ -5,7 +5,7 @@
 #
 Name     : pypi-pysubnettree
 Version  : 0.37
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
 Summary  : The PySubnetTree package provides a Python data structure SubnetTree
